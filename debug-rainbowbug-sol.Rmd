@@ -45,7 +45,7 @@ nicht erzeugt werden.
 mit den Informationen in den Warnmeldungen rausbekommen.
 Ich wollte nun noch im interaktiven Debugger Folgendes ausprobieren: 
 
-```{r, debug, message=FALSE}
+```{r, debug, eval=FALSE}
 debugonce(fboxplot)
 options(error = recover, warn = 2)
 ```
